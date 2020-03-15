@@ -1,0 +1,325 @@
+
+* { margin: 0; }
+
+
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Noto Sans KR';
+    
+}
+
+
+h2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+body{
+
+    text-align: center;
+    margin-top: 0;
+    background-image: url(imagenes/selva2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.agrupar{
+
+width: auto;
+margin: 15px 15px 15px 15px;
+
+
+}
+.header{
+
+background: green;
+padding: 20px;
+text-align: left;
+
+
+}
+
+.menu{
+
+background: #2ecc71;
+text-align: left;
+padding: 20px;
+margin: 0px;
+
+}
+
+.menu li:hover{
+
+    background: seagreen;
+}
+
+.menu a { 
+color: white;
+font-weight: bold;
+padding-right: 20px;
+
+}
+
+.menu li{
+
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+    
+
+}   
+
+.seccion{
+
+    width: 100%;
+    padding-top: 20px;
+
+}
+.columna{
+
+    width:200px;
+    padding: 20px;
+    float: left;
+    background: #2ecc71;
+    margin-top: 40px;
+    
+    
+}
+
+.pie{
+
+    clear: both;
+    font-weight: 20px;
+    background:green;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+
+
+
+.datoschile{
+
+justify-content: space-between;
+    background: white;
+    display: flex;
+}
+
+
+article{
+
+    background: #2ecc71;
+    padding: 50px;
+   
+}
+
+article p{
+
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+
+
+.bibliografia{
+
+    list-style: none;
+    background:#2ecc71;
+    font-weight: bold;
+   
+
+}
+
+.bibliografia ul{
+
+    list-style: none;
+    font-weight: bold;
+    
+} 
+
+.acerca {
+
+    width:200px;
+    padding: 20px;
+    float: left;
+    background: #2ecc71;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    
+    
+
+   
+}
+
+.archivo{
+    width:200px;
+    padding: 20px;
+    float: left;
+    background: #2ecc71;
+    margin-top: 40px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+header .imagen-portada{
+
+    background-image: url("imagenes/portada.png");
+    height: 130px;
+    width: 70%;
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+header {
+
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+a{
+
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.descargas {
+
+    width:200px;
+    float: left;
+    background: #2ecc71;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    list-style: none;
+   
+   
+}
+
+aside a{
+    
+    color: white;
+    font-weight: bold;
+
+}
+
+.descargas1 li{
+
+    list-style: none;
+    background: white;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 100px;
+
+
+   
+}
+
+ul {
+    list-style-type: none;
+    padding:0px;
+}
+    .fecha{
+
+        font-size:normal;
+        font-family:sans-serif;
+        color: black;
+        margin :30px;
+        text-align: center;
+        font-weight: bold;
+        
+       
+
+    }
+
+    .links {
+        list-style: none;
+        background: white;
+        font-style: normal;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+        padding: 200px;
+    
+    }
+
+    .lista{
+
+        list-style: none;
+        background: white;
+        font-style: normal;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .contacto{
+
+        list-style: none;
+        background: white;
+        font-style: normal;
+        font-family: sans-serif;
+        font-weight: bold;
+        color:black;
+    }
+
+
+    .datos{
+
+
+        text-align: left;
+        font-family: sans-serif;
+        font-weight: bold;
+        
+        padding: 20px;
+        
+    }
+    .formato-imagen{
+
+    width: 600px;
+    padding: 2px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    
+    }
+
+
+
+.amargaimagen{
+
+    background-image: url(imagenes/amargasaurus-museo-melbourne.jpg);
+    background-position: left;
+    width: 800px;
+
+
+
+}
+.chilesaurus{
+
+ 
+    background-image: url(imagenes/Chilesaurus2.jpg);
+}
+
+.austro{
+width: 430px;
+    float: right;
+    padding: 2px;
+    }
