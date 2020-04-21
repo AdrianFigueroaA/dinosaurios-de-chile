@@ -3,7 +3,7 @@
 
 
 h1{
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     margin: 20px;
     padding: 20px;
@@ -38,7 +38,6 @@ margin: 0px 15px 15px 15px;
 .header{
 
 background: green;
-padding: 20px;
 text-align: left;
 position: sticky;
 left: 0px;
@@ -49,23 +48,23 @@ top: 0px;
 
 .menu{
 
-background: #2ecc71;
+background: white;
 text-align: left;
 padding: 20px;
 margin: 0px;
 position: sticky;
-top: 200px;
+top: 160px;
 
 
 }
 
 .menu li:hover{
 
-    background: seagreen;
+    background: #dfe6e9;
 }
 
 .menu a { 
-color: white;
+color: green;
 font-weight: bold;
 
 }
@@ -153,10 +152,6 @@ article p{
     margin-top: 40px;
     text-align: center;
     font-weight: bold;
-    
-    
-
-   
 }
 
 .archivo{
@@ -192,6 +187,9 @@ a{
 
     text-decoration: none;
     font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+    text-shadow: black;
 }
 
 .descargas {
@@ -215,23 +213,25 @@ aside a{
 }
 
 .descargas1 li{
-    margin: 20px;
+    margin: 40px;
     list-style: none;
-    background: white;
     font-style: normal;
     font-family: sans-serif;
     font-weight: bold;
     color: black;
-    padding: 60px;
     display: inline-flex;
     border-radius: 5px;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 200px;
+    padding: 5px;
 
     
 }
 
 .descargas1 :hover{
 
-    background:#dfe6e9;
+    opacity: 0.5;
     transition: all 0.2s linear;
     border-radius: 5px;
 }
@@ -318,7 +318,7 @@ ul {
 
 
 }
-.chilesaurus{
+.chilesaurusimagen{
 
  
     background-image: url(imagenes/Chilesaurus2.jpg);
@@ -347,4 +347,49 @@ background-size: contain;
 
 font-weight: bold;
 color: white;
+}
+.chilesaurus{
+
+    background-image: url(imagenes/chilesaurus_imagen_descargas.jpg);
+    background-size: cover;
+    
+}
+
+.amargasaurus{
+
+    background-image: url(imagenes/amargasaurus_imagen_descargas.jpg);
+    background-size: cover;
+    
+}
+
+.austroraptor{
+
+    background-image: url(imagenes/austroraptor_imagen_descargas.webp);
+    background-size: cover;
+   
+}
+
+.eoraptor{
+
+    background-image: url(imagenes/Eoraptor_imagen_descargas.webp);
+    background-size: cover;
+    
+}
+
+.bicentenaria{
+
+    background-image: url(imagenes/bicentenaria_imagen_descargas.jpg);
+    background-size: cover;
+    
+}
+
+
+.herrerasaurus{
+
+    background-image: url(imagenes/herrerasaurus_imagen_descargas.jpg);
+    background-size:172%;
+    background-position: 70%;
+    
+    
+
 }
