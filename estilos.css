@@ -1,5 +1,9 @@
 
-* { margin: 0; }
+* { margin: 0; 
+margin: 0;
+padding: 0;
+
+}
 
 
 h1{
@@ -33,7 +37,7 @@ h2{
 body{
 
     text-align: center;
-    margin-top: 0;
+   
     background-image: url(imagenes/selva2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,8 +64,7 @@ width: 100%;
 
 background: white;
 text-align: left;
-padding: 10px;
-
+padding: 15px;
 position: sticky;
 top: 0px;
 display: flex;
@@ -94,15 +97,11 @@ font-weight: bold;
     border-radius: 5px;
     line-height: 25px;
   
-    
-
 }   
 
 .seccion{
 
     width: 100%;
-    
-
 }
 
 .pie{
@@ -162,16 +161,6 @@ article p{
     
 } 
 
-.acerca {
-
-    width:200px;
-    padding: 20px;
-    float: left;
-    background: #2ecc71;
-    margin-top: 40px;
-    text-align: center;
-    font-weight: bold;
-}
 
 .archivo{
     width:200px;
@@ -187,7 +176,6 @@ article p{
 header .imagen-portada{
 
     background-image: url("imagenes/portada.png");
-    
     width: 70%;
     background-position: bottom;
     background-size: contain;
@@ -214,12 +202,7 @@ a{
 
 
 
-aside a{
-    
-    color: white;
-    font-weight: bold;
 
-}
 
 .especies1 li{
     margin: 40px;
@@ -258,9 +241,6 @@ ul {
         margin :30px;
         text-align: center;
         font-weight: bold;
-        
-       
-
     }
 
     .links {
@@ -299,7 +279,7 @@ ul {
 
 
         text-align: left;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', 'sans-serif';
         font-weight: bold;
         padding: 20px;
         
@@ -307,8 +287,7 @@ ul {
 
 
     .formato-imagen{
-
-    width: 600px;
+    width: 60%;
     padding: 2px;
     height: 400px;
     background-repeat: no-repeat;
@@ -326,9 +305,7 @@ ul {
 
     background-image: url(imagenes/amargasaurus-museo-melbourne.jpg);
     background-position: left;
-    width: 800px;
-
-
+    width: 60%;
 
 }
 .chilesaurusimagen{
@@ -352,15 +329,12 @@ ul {
 
 .herreraimagen{
 
-background-image: url(imagenes/herrera\ esqueleto.png);
+background-image: url(imagenes/herrerasaurus_imagen_descargas.jpg);
 background-size: contain;
 
 }
-.subir{
 
-font-weight: bold;
-color: white;
-}
+
 .chilesaurus{
 
     background-image: url(imagenes/chilesaurus_imagen_descargas.jpg);
@@ -430,7 +404,11 @@ color: white;
 
 
 
-@media  (max-width: 600px){
+
+
+
+
+@media  (max-width: 768px){
 
 
 .tarjetamovil{
@@ -467,6 +445,7 @@ header .imagen-portada{
      width: 90%;
     height: 155px;
 }
+
 ul{
 
 list-style-type: none;
@@ -479,13 +458,13 @@ list-style-type: none;
 .detallestarjeta{
 
     background: white;
-    width: 284px;
+   width: 95%;
 
 }
 
 
 .formato-imagen {
-    width: 300px;
+    width: 100%;
     padding: 2px;
     height: 10%;
     background-repeat: no-repeat;
@@ -509,7 +488,7 @@ article {
 article p{
 
 text-align: left;
-font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Condensed','sans-serif';
 padding: 0;
 }
 
